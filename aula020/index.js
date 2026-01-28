@@ -17,6 +17,7 @@ let multiplicacao = num1 * num2;
 let divisao = num1 / num2;
 let potenciacao = num1 ** num2;
 let resto = num1 % num2;
+let raizQuadrada = num1 ** 0.5;
 
 console.log(`Adição.......: ${num1} + ${num2} = ${soma}`);
 console.log(`Subtração....: ${num1} - ${num2} = ${subtracao}`);
@@ -24,6 +25,7 @@ console.log(`Multiplicação: ${num1} x ${num2} = ${multiplicacao}`);
 console.log(`Divisão......: ${num1} / ${num2} = ${divisao}`);
 console.log(`Potenciação..: ${num1} elevado a ${num2} = ${potenciacao}`);
 console.log(`Resto........: ${num1} / ${num2} resto ${resto}`);
+console.log(`Raiz quadrada: ${raizQuadrada}`);
 
 /**
  * Operadores de Atribuição
